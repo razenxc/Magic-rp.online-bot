@@ -15,7 +15,7 @@ class Ping(commands.Cog):
             description=f"Затримка: {latency:.2f} мс.",
             color=Config.ping_embed_color,
         )
-        await ctx.response.send_message(embed=embed)
+        await ctx.response.send_message(embed=embed, ephemeral=True)
 
 def setup(bot):
     bot.add_cog(Ping(bot))
