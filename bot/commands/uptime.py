@@ -9,7 +9,7 @@ class Uptime(commands.Cog):
         self.bot = bot
         self.start_time = time()
 
-    @commands.slash_command(name="uptime", description="shows bot uptime")
+    @commands.slash_command(name="uptime", description="Shows bot uptime")
     @commands.cooldown(1, 15, commands.BucketType.user)
     async def uptime(self, inter: disnake.interactions.application_command.ApplicationCommandInteraction) -> None:
         current_time = time()
