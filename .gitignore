@@ -1,0 +1,5 @@
+.env
+__pycache__/
+verysecretfile.py
+.replit
+replit.nix
