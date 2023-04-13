@@ -1,5 +1,7 @@
 .env
 __pycache__/
+*.py[cod]
+*$py.class
 verysecretfile.py
 .replit
 replit.nix
